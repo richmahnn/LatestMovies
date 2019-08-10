@@ -8,7 +8,7 @@ import com.squareup.leakcanary.LeakCanary
 
 class MovieApplication : Application() {
 
-    private val applicationComponent: ApplicationComponent by lazy(mode = LazyThreadSafetyMode.NONE) {
+    val applicationComponent: ApplicationComponent by lazy(mode = LazyThreadSafetyMode.NONE) {
         DaggerApplicationComponent
             .builder()
             .applicationModule(ApplicationModule(this))
