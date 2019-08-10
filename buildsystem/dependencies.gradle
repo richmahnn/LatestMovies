@@ -32,7 +32,7 @@ ext {
             dagger:                     "com.google.dagger:dagger:$dagger_version",
             appCompat:                  "androidx.appcompat:appcompat:$appCompat_version",
             lifeCycle:                  "androidx.lifecycle:lifecycle-extensions:$lifecycle_version",
-            lifeCycleCompiler:     "androidx.lifecycle:compiler:$lifecycle_version",
+            lifeCycleCompiler:          "androidx.lifecycle:lifecycle-compiler:$lifecycle_version",
             material:                   "com.google.android.material:material:$material_version",
             androidXCore:               "androidx.core:core-ktx:$android_x_version",
             constraintLayout:           "androidx.constraintlayout:constraintlayout:$constraintLayout_version",
