@@ -20,7 +20,6 @@ abstract class BaseActivity : AppCompatActivity() {
 
         setContentView(layout.activity_layout)
         setSupportActionBar(toolbar)
-
     }
 
     override fun onBackPressed() {
@@ -32,6 +31,6 @@ abstract class BaseActivity : AppCompatActivity() {
     private fun addFragment(savedInstanceState: Bundle?) =
         savedInstanceState ?: supportFragmentManager.inTransaction { add(id.fragmentContainer, fragment()) }
 
-    abstract fun fragment() : BaseFragment
+    abstract fun fragment(): BaseFragment
 
 }

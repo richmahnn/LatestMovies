@@ -47,6 +47,9 @@ dependencies {
 
     //Unit/Integration tests dependencies
     testImplementation unitTestDependencies.junit
+    testImplementation unitTestDependencies.mockito
+    testImplementation unitTestDependencies.kluent
+    testImplementation unitTestDependencies.roboelectric
 
     //Acceptance tests dependencies
     androidTestImplementation acceptanceTestDependencies.testRunner
